@@ -1,15 +1,14 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: "app-first-component",
-  templateUrl: "./first-component.component.html",
-  styleUrls: ["./first-component.component.css"]
+  selector: 'app-first-component',
+  templateUrl: './first-component.component.html',
+  styleUrls: ['./first-component.component.css']
 })
 export class FirstComponentComponent implements OnInit {
-  constructor() {}
+  constructor() { }
 
   // tslint:disable-next-line: quotemark
-  title = "First-Component's Title";
-
-  ngOnInit(): void {}
+  title = `First-Component's Title`;
+  ngOnInit(): void { }
 }
