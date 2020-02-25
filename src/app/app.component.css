@@ -1,9 +1,4 @@
-app-first-component {
-  background: #1976D2;
-  color: white;
-  width: 20vw;
-  margin: 1rem 0;
-  padding: 1rem;
-  border-radius: 10px;
-  text-align: center;
-}
+/* Responsive Styles */
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 575px) {}
